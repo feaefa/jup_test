@@ -321,6 +321,11 @@
     "@types/qs" "*"
     "@types/range-parser" "*"
 
+"@types/isomorphic-fetch@^0.0.35":
+  "integrity" "sha512-DaZNUvLDCAnCTjgwxgiL1eQdxIKEpNLOlTNtAgnZc50bG2copGhRrFN9/PxPBuJe+tZVLCbQ7ls0xveXVRPkvw=="
+  "resolved" "https://registry.npmjs.org/@types/isomorphic-fetch/-/isomorphic-fetch-0.0.35.tgz"
+  "version" "0.0.35"
+
 "@types/json5@^0.0.29":
   "integrity" "sha1-7ihweulOEdK4J7y+UnC86n8+ce4="
   "resolved" "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
@@ -1460,6 +1465,14 @@
   "resolved" "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
   "version" "2.0.0"
 
+"isomorphic-fetch@^3.0.0":
+  "integrity" "sha512-qvUtwJ3j6qwsF3jLxkZ72qCgjMysPzDfeV240JHiGZsANBYd+EEuu35v7dfrJ9Up0Ak07D7GGSkGhCHTqg/5wA=="
+  "resolved" "https://registry.npmjs.org/isomorphic-fetch/-/isomorphic-fetch-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "node-fetch" "^2.6.1"
+    "whatwg-fetch" "^3.4.1"
+
 "isomorphic-ws@^4.0.1":
   "integrity" "sha512-BhBvN2MBpWTaSHdWRb/bwdZJ1WaehQ2L1KngkCkfLUGF0mAWAT1sQUQacEmQ0jXkFw/czDXPNQSL5u2/Krsz1w=="
   "resolved" "https://registry.npmjs.org/isomorphic-ws/-/isomorphic-ws-4.0.1.tgz"
@@ -1711,7 +1724,7 @@
   "resolved" "https://registry.npmjs.org/node-addon-api/-/node-addon-api-2.0.2.tgz"
   "version" "2.0.2"
 
-"node-fetch@2.6.1":
+"node-fetch@^2.6.1", "node-fetch@2.6.1":
   "integrity" "sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw=="
   "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz"
   "version" "2.6.1"
@@ -2290,6 +2303,11 @@
   "integrity" "sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA=="
   "resolved" "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz"
   "version" "2.3.0"
+
+"whatwg-fetch@^3.4.1":
+  "integrity" "sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA=="
+  "resolved" "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz"
+  "version" "3.6.2"
 
 "which-boxed-primitive@^1.0.2":
   "integrity" "sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg=="

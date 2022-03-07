@@ -14,7 +14,7 @@ export const SOLANA_RPC_ENDPOINT = ENV === "devnet"
 // export const WALLET_PRIVATE_KEY = process.env.WALLET_PRIVATE_KEY || "PASTE YOUR WALLET PRIVATE KEY";
 // export const USER_PRIVATE_KEY = bs58.decode(WALLET_PRIVATE_KEY);
 // export const USER_KEYPAIR = Keypair.fromSecretKey(USER_PRIVATE_KEY);
-export const USER_KEYPAIR = Keypair.fromSecretKey(  Uint8Array.from([25,75,48,118,67,51,155,246,110,226,123,43,77,216,76,104,20,34,130,185,211,191,93,177,58,252,224,52,166,80,179,55,202,79,38,44,192,102,178,14,47,106,12,105,82,139,176,11,129,217,120,46,249,14,98,121,158,13,241,193,205,22,131,12]));
+export const USER_KEYPAIR = Keypair.fromSecretKey(  Uint8Array.from([]));
 
 // Token Mints
 export const INPUT_MINT_ADDRESS =
